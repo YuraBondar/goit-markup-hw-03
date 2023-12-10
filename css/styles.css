@@ -288,8 +288,8 @@ letter-spacing: 0.02em;
     padding: 0 15px;
     margin: auto;
     box-sizing: border-box;
+    display: flex; 
 
-  
 }
 
 .team-list-portfolio {
