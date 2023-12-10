@@ -300,23 +300,12 @@ letter-spacing: 0.02em;
   row-gap: 48px;
 
 }
-
 .header {
     box-sizing: border-box;
     display: block;
     border-bottom: 1px solid #e7e9fc;
 
 }
-
-.container-header-container {
-    display: flex;
-    align-items: center;
-    max-width: 1158px;
-    padding: 0.15px;
-    margin: auto;
-    box-sizing: border-box;
-}
-
 .header-list {
 display: flex;
     margin-top: 0;
@@ -327,7 +316,6 @@ display: flex;
     gap: 40px;
 
   }
-
 .principle-section {
 padding-top: 120px;
     padding-bottom: 120px;
