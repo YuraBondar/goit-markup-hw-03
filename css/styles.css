@@ -57,8 +57,9 @@ background-color: aqua;
 color: #404bbf;
 }
 
-.main-sec {
+.hero {
 background-color: #2e2f42;
+padding: 188px 0;
 }
 
 .address {
@@ -88,8 +89,12 @@ font-size: 56px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.07; 
-letter-spacing: 1.12px;
+letter-spacing: 0.02em;
 background-color: #2e2f42;
+padding-left: auto;
+padding-right: auto;
+max-width: 496px;
+margin: 0 auto 48px auto;
 }
 .button {
 color:  #FFF;
@@ -97,9 +102,20 @@ font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px; 
+line-height: 1.5; 
 letter-spacing: 0.64px;
-background: #4D5AE5;
+background-color: #4D5AE5;
+padding: 16px 32px;
+margin: 0 auto;
+margin-top: 40px;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
+line-height: 1.5;
+cursor: pointer;
+
 }
 .button:hover {
 color: #404bbf;
@@ -241,4 +257,78 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+}
+
+.container {
+      max-width: 1158px;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+
+  
+}
+
+.team-list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 24px;
+  row-gap: 48px;
+
+}
+
+.header {
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.container-header-container {
+    display: flex;
+    align-items: center;
+    max-width: 1158px;
+    padding: 0.15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header-list {
+display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+
+  }
+
+.principle-section {
+padding-top: 120px;
+    padding-bottom: 120px;
+        box-sizing: border-box;
+    display: block;
+}
+
+.team-div {
+padding: 32px 0;
+box-sizing: border-box;
+
+}
+
+.portfolio-section {
+padding-top: 120px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+        display: block;
+
+}
+
+
+.border {
+    padding: 32px 16px;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+        box-sizing: border-box;
+
 }
