@@ -202,6 +202,7 @@ font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.72px;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .list-item-three {
 background-color: #FFFFFF;
@@ -215,6 +216,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.4px;
+margin-bottom: 8px;
 }
 .portfolio-item-descr {
 color: #434455;
@@ -227,6 +229,9 @@ letter-spacing: 0.32px;
 }
 .footer {
 background: #2E2F42;
+padding-top: 100px;
+padding-bottom: 100px;
+
 }
 .logo-two {
 color: #4D5AE5;
@@ -237,6 +242,8 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
 }
 .logo-span-bottom {
 color:  #F4F4FD;
