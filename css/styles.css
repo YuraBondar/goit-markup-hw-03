@@ -196,7 +196,7 @@ margin-bottom: 72px;
 
 .list-item-two {
 background-color: #FFFFFF;
-width: calc (100% - 72px) / 4; 
+width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px; 
 }
 .item-descr-two {
@@ -224,6 +224,7 @@ margin-bottom: 72px;
 .list-item-three {
 background-color: #FFFFFF;
 line-height: 1.5
+width: calc((100% - 48px) / 3);
 }
 .portfolio-item {
 color: #2E2F42;
@@ -253,13 +254,13 @@ padding-bottom: 100px;
 .logo-two {
 color: #4D5AE5;
 font-family: "Raleway", sans-serif;
+display: inline-block;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.54px;
 text-transform: uppercase;
-display: inline-block;
 margin-bottom: 16px;
 }
 .logo-span-bottom {
